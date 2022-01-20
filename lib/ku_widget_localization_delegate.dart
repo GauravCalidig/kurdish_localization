@@ -1,13 +1,11 @@
 import 'dart:async';
 
-import 'package:flutter/widgets.dart';
-import 'package:intl/intl.dart' as intl;
-import 'package:intl/date_symbol_data_local.dart' as intl;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:intl/date_symbol_data_local.dart' as intl;
 
-class _KuMaterialLocalizationsDelegate
-    extends LocalizationsDelegate<WidgetsLocalizations> {
+class _KuMaterialLocalizationsDelegate extends LocalizationsDelegate<WidgetsLocalizations> {
   const _KuMaterialLocalizationsDelegate();
 
   @override
@@ -27,8 +25,7 @@ class _KuMaterialLocalizationsDelegate
 }
 
 class KuWidgetLocalizations extends WidgetsLocalizations {
-  static const LocalizationsDelegate<WidgetsLocalizations> delegate =
-      _KuMaterialLocalizationsDelegate();
+  static const LocalizationsDelegate<WidgetsLocalizations> delegate = _KuMaterialLocalizationsDelegate();
 
   @override
   TextDirection get textDirection => TextDirection.rtl;
