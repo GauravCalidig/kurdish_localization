@@ -36,15 +36,15 @@ class _KuMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLoc
 class KuMaterialLocalizations extends GlobalMaterialLocalizations {
   const KuMaterialLocalizations({
     String localeName = 'ku',
-    @required intl.DateFormat fullYearFormat,
-    @required intl.DateFormat mediumDateFormat,
-    @required intl.DateFormat longDateFormat,
-    @required intl.DateFormat yearMonthFormat,
-    @required intl.NumberFormat decimalFormat,
-    @required intl.NumberFormat twoDigitZeroPaddedFormat,
-    @required intl.DateFormat compactDateFormat,
-    @required intl.DateFormat shortMonthDayFormat,
-    @required intl.DateFormat shortDateFormat,
+    required intl.DateFormat fullYearFormat,
+    required intl.DateFormat mediumDateFormat,
+    required intl.DateFormat longDateFormat,
+    required intl.DateFormat yearMonthFormat,
+    required intl.NumberFormat decimalFormat,
+    required intl.NumberFormat twoDigitZeroPaddedFormat,
+    required intl.DateFormat compactDateFormat,
+    required intl.DateFormat shortMonthDayFormat,
+    required intl.DateFormat shortDateFormat,
   }) : super(
           localeName: localeName,
           fullYearFormat: fullYearFormat,
@@ -149,10 +149,10 @@ class KuMaterialLocalizations extends GlobalMaterialLocalizations {
   String get refreshIndicatorSemanticLabel => r'تازەکردنەوە';
 
   @override
-  String get remainingTextFieldCharacterCountFew => null;
+  String get remainingTextFieldCharacterCountFew => r'$remainingCount تیپەکان بار';
 
   @override
-  String get remainingTextFieldCharacterCountMany => null;
+  String get remainingTextFieldCharacterCountMany => r'$remainingCount تیپەکان بار';
 
   @override
   String get remainingTextFieldCharacterCountOne => r'١ پیت ماوە';
@@ -161,7 +161,7 @@ class KuMaterialLocalizations extends GlobalMaterialLocalizations {
   String get remainingTextFieldCharacterCountOther => r'$remainingCount پیت ماوە';
 
   @override
-  String get remainingTextFieldCharacterCountTwo => null;
+  String get remainingTextFieldCharacterCountTwo => r'$remainingCount پیت ماوە';
 
   @override
   String get remainingTextFieldCharacterCountZero => r'هیچ پیت نەماوە';
@@ -197,10 +197,10 @@ class KuMaterialLocalizations extends GlobalMaterialLocalizations {
   String get selectAllButtonLabel => r'هەموی دیاریبکە';
 
   @override
-  String get selectedRowCountTitleFew => null;
+  String get selectedRowCountTitleFew => r'$selectedRowCount تیپەکان دیاریکراون';
 
   @override
-  String get selectedRowCountTitleMany => null;
+  String get selectedRowCountTitleMany => r'$selectedRowCount تیپەکان دیاریکراون';
 
   @override
   String get selectedRowCountTitleOne => r'١ دانە دیاریکراوە';
@@ -209,7 +209,7 @@ class KuMaterialLocalizations extends GlobalMaterialLocalizations {
   String get selectedRowCountTitleOther => r'$selectedRowCount دانە دیاریکراوە';
 
   @override
-  String get selectedRowCountTitleTwo => null;
+  String get selectedRowCountTitleTwo => r'$selectedRowCount دانە دیاریکراوە';
 
   @override
   String get selectedRowCountTitleZero => r'هیچ دیارینەکراوە';
@@ -263,7 +263,7 @@ class KuMaterialLocalizations extends GlobalMaterialLocalizations {
   String get licensesPackageDetailTextOther => r'$licenseCount مۆڵەتەکان بە بەرهەمی $packageName';
 
   @override
-  String get licensesPackageDetailTextTwo => null;
+  String get licensesPackageDetailTextTwo => r'$licenseCount مۆڵەتەکان بە بەرهەمی';
 
   @override
   String get licensesPackageDetailTextOne => r'یەک مۆڵەتەکە بە بەرهەمی $packageName';
