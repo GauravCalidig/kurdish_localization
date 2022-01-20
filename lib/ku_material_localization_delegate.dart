@@ -1,12 +1,11 @@
 import 'dart:async';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart' as intl;
-import 'package:intl/date_symbol_data_local.dart' as intl;
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:intl/intl.dart' as intl;
 
-class _KuMaterialLocalizationsDelegate
-    extends LocalizationsDelegate<MaterialLocalizations> {
+class _KuMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLocalizations> {
   const _KuMaterialLocalizationsDelegate();
 
   @override
@@ -129,8 +128,7 @@ class KuMaterialLocalizations extends GlobalMaterialLocalizations {
   String get pageRowsInfoTitleRaw => r'$firstRow–$lastRow of $rowCount';
 
   @override
-  String get pageRowsInfoTitleApproximateRaw =>
-      r'$firstRow–$lastRow of about $rowCount';
+  String get pageRowsInfoTitleApproximateRaw => r'$firstRow–$lastRow of about $rowCount';
 
   @override
   String get pasteButtonLabel => r'دانان';
@@ -160,8 +158,7 @@ class KuMaterialLocalizations extends GlobalMaterialLocalizations {
   String get remainingTextFieldCharacterCountOne => r'١ پیت ماوە';
 
   @override
-  String get remainingTextFieldCharacterCountOther =>
-      r'$remainingCount پیت ماوە';
+  String get remainingTextFieldCharacterCountOther => r'$remainingCount پیت ماوە';
 
   @override
   String get remainingTextFieldCharacterCountTwo => null;
@@ -242,15 +239,109 @@ class KuMaterialLocalizations extends GlobalMaterialLocalizations {
   String get viewLicensesButtonLabel => r'مۆڵەتەکان ببینە';
 
   @override
-  List<String> get narrowWeekdays =>
-      const <String>['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+  List<String> get narrowWeekdays => const <String>['S', 'M', 'T', 'W', 'T', 'F', 'S'];
 
   @override
   int get firstDayOfWeekIndex => 0;
 
-  static const LocalizationsDelegate<MaterialLocalizations> delegate =
-      _KuMaterialLocalizationsDelegate();
+  @override
+  String get reorderItemToBottom => r'بڕۆ بۆ کۆتایی';
 
   @override
-  String get moreButtonTooltip => throw UnimplementedError();
+  String get dateRangeEndDateSemanticLabelRaw => r'$fullDate - بە کاتی پایین';
+
+  @override
+  String get dateRangeStartDateSemanticLabelRaw => r'$fullDate - بە کاتی سەرەوە';
+
+  @override
+  String get inputDateModeButtonLabel => r'گۆڕینی نیشانکردنەوە';
+
+  @override
+  String get unspecifiedDateRange => r'گەڕان';
+
+  @override
+  String get licensesPackageDetailTextOther => r'$licenseCount مۆڵەتەکان بە بەرهەمی $packageName';
+
+  @override
+  String get licensesPackageDetailTextTwo => null;
+
+  @override
+  String get licensesPackageDetailTextOne => r'یەک مۆڵەتەکە بە بەرهەمی $packageName';
+
+  @override
+  String get licensesPackageDetailTextZero => r'هیچ مۆڵەتەکە بە بەرهەمی $packageName';
+
+  @override
+  String get calendarModeButtonLabel => r'مۆڵەتەکان';
+
+  @override
+  String get dateInputLabel => r'ڕێکخستنی تاریخ';
+
+  @override
+  String get dateRangeEndLabel => r'بە کاتی پایین';
+
+  @override
+  String get dateRangeStartLabel => r'بە کاتی سەرەوە';
+
+  @override
+  String get dateHelpText => r'مۆڵەتەکان';
+
+  @override
+  String get invalidDateFormatLabel => r'فۆکترۆڵی نەگونجاوە.';
+
+  @override
+  String get dateOutOfRangeLabel => r'بە کاتی نەدراوە.';
+
+  @override
+  String get invalidDateRangeLabel => r'گەڕانەکان نەگونجاوە.';
+
+  @override
+  String get datePickerHelpText => r'ڕێکخستنی تاریخ';
+
+  @override
+  String get dateSeparator => r'/';
+
+  @override
+  String get dateRangePickerHelpText => r'ڕێکخستنی گەڕان';
+
+  @override
+  String get dialModeButtonLabel => r'گۆڕینی نیشانکردنەوە';
+
+  @override
+  String get firstPageTooltip => r'لاپەڕەیەکی یەک';
+
+  @override
+  String get inputTimeModeButtonLabel => r'گۆڕینی نیشانکردنەوە';
+
+  @override
+  String get invalidTimeLabel => r'کاتی نەگونجاوە';
+
+  @override
+  String get lastPageTooltip => r'لاپەڕەی دوایی';
+
+  @override
+  String get selectYearSemanticsLabel => r'ژێری ساڵە';
+
+  @override
+  String get saveButtonLabel => r'پاشکەوتکردن';
+
+  @override
+  String get timePickerDialHelpText => r'گۆڕینی خولەک';
+
+  @override
+  String get moreButtonTooltip => r'More';
+
+  @override
+  String get timePickerHourLabel => r'کات';
+
+  @override
+  String get timePickerInputHelpText => r'کاتژمێر دیاریبکە';
+
+  @override
+  String get timePickerMinuteLabel => r'خولەک';
+
+  @override
+  String get unspecifiedDate => r'تاریخ';
+
+  static const LocalizationsDelegate<MaterialLocalizations> delegate = _KuMaterialLocalizationsDelegate();
 }
