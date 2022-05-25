@@ -26,7 +26,7 @@ $ flutter pub get
 ### Import it
 
 ```
-import 'package:kurdish_localization/kurdish_localization.dart';
+import 'package:kurdish_localization_flutter/kurdish_localization.dart';
 ```
 
 ### Use it

@@ -1,6 +1,6 @@
 name: kurdish_localization_flutter
 description: This package provides localization support for Kurdish locale 
-version: 0.0.5
+version: 0.0.6
 homepage: "https://github.com/gauravmehta13/kurdish_localization_flutter"
 
 environment:
