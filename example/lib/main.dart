@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:kurdish_localization_flutter/kurdish_localization.dart';
 
 void main() {
   runApp(MyApp());

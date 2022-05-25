@@ -343,5 +343,236 @@ class KuMaterialLocalizations extends GlobalMaterialLocalizations {
   @override
   String get unspecifiedDate => r'تاریخ';
 
+  @override
+  String get keyboardKeyAlt => r'Alt';
+
+  @override
+  // keyboardKeyAltGraph
+  String get keyboardKeyAltGraph => r'AltGraph';
+
+  @override
+  // keyboardKeyBackspace
+  String get keyboardKeyBackspace => r'Backspace';
+
+  @override
+  // keyboardKeyCapsLock
+  String get keyboardKeyCapsLock => r'Caps Lock';
+
+  @override
+  // keyboardKeyChannelDown
+  String get keyboardKeyChannelDown => r'Channel Down';
+
+  @override
+  // keyboardKeyChannelUp
+  String get keyboardKeyChannelUp => r'Channel Up';
+
+  @override
+  // keyboardKeyControl
+  String get keyboardKeyControl => r'Ctrl';
+
+  @override
+  // keyboardKeyDelete
+  String get keyboardKeyDelete => r'Delete';
+
+  @override
+  // keyboardKeyEisu
+  String get keyboardKeyEisu => r'Eisu';
+
+  @override
+  // keyboardKeyEject
+  String get keyboardKeyEject => r'Eject';
+
+  @override
+  // keyboardKeyEnd
+  String get keyboardKeyEnd => r'End';
+
+  @override
+  // keyboardKeyEscape
+  String get keyboardKeyEscape => r'Esc';
+
+  @override
+  // keyboardKeyFn
+  String get keyboardKeyFn => r'Fn';
+
+  @override
+  // keyboardKeyHangulMode
+  String get keyboardKeyHangulMode => r'Hangul Mode';
+
+  @override
+  // keyboardKeyHanjaMode
+  String get keyboardKeyHanjaMode => r'Hanja Mode';
+
+  @override
+  // keyboardKeyHankaku
+  String get keyboardKeyHankaku => r'Hankaku';
+
+  @override
+  // keyboardKeyHiragana
+  String get keyboardKeyHiragana => r'Hiragana';
+
+  @override
+  // keyboardKeyHiraganaKatakana
+  String get keyboardKeyHiraganaKatakana => r'Hiragana Katakana';
+
+  @override
+  // keyboardKeyHome
+  String get keyboardKeyHome => r'Home';
+
+  @override
+  // keyboardKeyInsert
+  String get keyboardKeyInsert => r'Insert';
+
+  @override
+  // keyboardKeyKanaMode
+  String get keyboardKeyKanaMode => r'Kana Mode';
+
+  @override
+  // keyboardKeyKanjiMode
+  String get keyboardKeyKanjiMode => r'Kanji Mode';
+
+  @override
+  // keyboardKeyKatakana
+  String get keyboardKeyKatakana => r'Katakana';
+
+  @override
+  // keyboardKeyMeta
+  String get keyboardKeyMeta => r'Meta';
+
+  @override
+  // keyboardKeyMetaMacOs
+  String get keyboardKeyMetaMacOs => r'Meta';
+
+  @override
+  // keyboardKeyMetaWindows
+  String get keyboardKeyMetaWindows => r'Meta';
+
+  @override
+  // keyboardKeyNumLock
+  String get keyboardKeyNumLock => r'Num Lock';
+
+  @override
+  // keyboardKeyNumpad0
+  String get keyboardKeyNumpad0 => r'0';
+
+  @override
+  // keyboardKeyNumpad1
+  String get keyboardKeyNumpad1 => r'1';
+
+  @override
+  // keyboardKeyNumpad2
+  String get keyboardKeyNumpad2 => r'2';
+
+  @override
+  // keyboardKeyNumpad3
+  String get keyboardKeyNumpad3 => r'3';
+
+  @override
+  // keyboardKeyNumpad4
+  String get keyboardKeyNumpad4 => r'4';
+
+  @override
+  // keyboardKeyNumpad5
+  String get keyboardKeyNumpad5 => r'5';
+
+  @override
+  // keyboardKeyNumpad6
+  String get keyboardKeyNumpad6 => r'6';
+
+  @override
+  // keyboardKeyNumpad7
+  String get keyboardKeyNumpad7 => r'7';
+
+  @override
+  // keyboardKeyNumpad8
+  String get keyboardKeyNumpad8 => r'8';
+
+  @override
+  // keyboardKeyNumpad9
+  String get keyboardKeyNumpad9 => r'9';
+
+  @override
+  // keyboardKeyNumpadAdd
+  String get keyboardKeyNumpadAdd => r'+';
+
+  @override
+  // keyboardKeyNumpadComma
+  String get keyboardKeyNumpadComma => r',';
+
+  @override
+  // keyboardKeyNumpadDecimal
+  String get keyboardKeyNumpadDecimal => r'.';
+
+  @override
+  // keyboardKeyNumpadDivide
+  String get keyboardKeyNumpadDivide => r'/';
+
+  @override
+  // keyboardKeyNumpadEnter
+  String get keyboardKeyNumpadEnter => r'Enter';
+
+  @override
+  // keyboardKeyNumpadEqual
+  String get keyboardKeyNumpadEqual => r'=';
+
+  @override
+  // keyboardKeyNumpadMultiply
+  String get keyboardKeyNumpadMultiply => r'*';
+
+  @override
+  // keyboardKeyNumpadParenLeft
+  String get keyboardKeyNumpadParenLeft => r'(';
+
+  @override
+  // keyboardKeyNumpadParenRight
+  String get keyboardKeyNumpadParenRight => r')';
+
+  @override
+  // keyboardKeyNumpadSubtract
+  String get keyboardKeyNumpadSubtract => r'-';
+
+  @override
+  // keyboardKeyPageDown
+  String get keyboardKeyPageDown => r'Page Down';
+
+  @override
+  // keyboardKeyPageUp
+  String get keyboardKeyPageUp => r'Page Up';
+
+  @override
+  // keyboardKeyPower
+  String get keyboardKeyPower => r'Power';
+
+  @override
+  // keyboardKeyPowerOff
+  String get keyboardKeyPowerOff => r'Power Off';
+
+  @override
+  // keyboardKeyPrintScreen
+  String get keyboardKeyPrintScreen => r'Print Screen';
+
+  @override
+  // keyboardKeyRomaji
+  String get keyboardKeyRomaji => r'Romaji';
+
+  @override
+  // keyboardKeyScrollLock
+  String get keyboardKeyScrollLock => r'Scroll Lock';
+
+  @override
+  // keyboardKeySelect
+  String get keyboardKeySelect => r'Select';
+
+  @override
+  // keyboardKeySpace
+  String get keyboardKeySpace => r'Space';
+
+  @override
+  // keyboardKeyZenkaku
+  String get keyboardKeyZenkaku => r'Zenkaku';
+
+  @override
+  // keyboardKeyZenkakuHankaku
+  String get keyboardKeyZenkakuHankaku => r'Zenkaku/Hankaku';
+
   static const LocalizationsDelegate<MaterialLocalizations> delegate = _KuMaterialLocalizationsDelegate();
 }
